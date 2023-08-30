@@ -1,0 +1,141 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+}
+.landing-page {
+  background-color: #e4f9f5;
+  text-align: center;
+
+  height: 110vh;
+  position: relative;
+  padding-top: 100px;
+}
+.mountain-img {
+  margin-top: 150px;
+  height: 350px;
+  width: 600px;
+  /* border: 2px solid red; */
+}
+.cloud-top {
+  position: absolute;
+  height: 100px;
+  right: 300px;
+  top: 30px;
+  /* border: 2px solid red; */
+}
+.cloud-bottom {
+  position: absolute;
+  height: 100px;
+  left: 250px;
+  bottom: 350px;
+  /* border: 2px solid red; */
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 30px auto 0 auto;
+  /* border: 2px solid red; */
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2rem;
+  /* border: 2px solid red; */
+}
+
+.pro {
+  text-decoration: underline;
+  /* border: 2px solid red; */
+}
+
+/* MID CONTAINER */
+.mid-container {
+  margin: 100px 0;
+}
+.profile {
+  /* width: 30%; */
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+}
+p {
+  line-height: 2;
+  /* border: 2px solid red; */
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+hr {
+  border: 6px dotted #eaf6f6;
+  width: 3%;
+  margin: 100px auto;
+  border-bottom: none;
+}
+
+/* SKILLSS */
+
+h3 {
+  color: #11999e;
+}
+.coding-h3 {
+  margin: 0;
+}
+.red-chillies-class {
+  border-radius: 50%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  row-gap: 20px;
+  text-align: left;
+}
+
+/* BOTTOM_CONTAINER */
+
+.hot-wing-p {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+/* CONTACT-ME */
+
+.btn {
+  background: #11cdd4;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+}
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+
+
+/* LAst-container */
+
+
+
+.last-container{
+  background-color: #66bfbf;
+}
+.last-container > a{
+  color: #fff;
+  padding: 20px 10px;
+}
