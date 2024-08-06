@@ -15,7 +15,7 @@ I am a passionate web developer with a background in Computer Science and Engine
 
 ## Contact
 
-Feel free to reach out to me at [ganesh@example.com](mailto:ganeshmedichelimala@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ganesh-medichelimala-15564a253/).
+Feel free to reach out to me at [ganeshmedichelimala@gmail.com](mailto:ganeshmedichelimala@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ganesh-medichelimala-15564a253/).
 
 ## Resume
 
