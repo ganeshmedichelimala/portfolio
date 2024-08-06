@@ -1,0 +1,83 @@
+#about{
+    overflow: hidden;
+    width:100vw;
+    max-width:75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.i{
+    color:rgb(245, 193, 49);
+}
+.aboutTitle{
+    font-size: 3rem;
+    font-weight:600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+.aboutDesc{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 55rem;
+    padding: 0 2rem;
+}
+.aboutBars{
+    margin: 1.5rem;
+    width:100vw;
+    max-width: 80%;
+    text-align:left;
+}
+.aboutBar{
+    display: flex;
+    margin:  1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50,50);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.aboutBar:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.aboutBarImg{
+    object-fit: cover;
+    height:4rem;
+    width:4rem;
+    margin-right:2rem;
+}
+.aboutBarText{
+   font-size: 1rem;
+   font-weight:200;
+}
+@media screen and (max-width:720px){
+    .aboutBarText>p{
+        font-size: 2vw;
+    }
+    
+}
+
+@media screen and (max-width:360px){
+    .aboutBarText>p{
+        font-size: 3vw;
+    }
+    .aboutBarImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .aboutBarText>h2>{
+        font-size: 5vw;
+    }
+    .aboutTitle, .aboutDesc{
+        margin-right:0.7rem;
+    }
+    
+}

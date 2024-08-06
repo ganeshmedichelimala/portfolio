@@ -1,0 +1,122 @@
+#exp{
+    overflow: hidden;
+    width:100vw;
+    max-width:75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+#MECS{
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: #f5c131;
+    font-weight: bold;
+}
+
+.expTitle{
+    font-size: 3rem;
+    font-weight:600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+
+}
+.and{
+    color:  rgb(245, 193, 49);;
+}
+.expDesc{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 55rem;
+    padding: 0 2rem;
+}
+.expBars {
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.expBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(50% - 20px);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.expBar:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.expBarImg {
+    height: auto;
+    width: 100%;
+    max-width: 10rem; /* Limit the maximum width */
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    object-fit: cover; /* Ensure the image covers the box */
+}
+
+.expBarText {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.expBarText h2 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: #f5c131;
+}
+
+.expBarText p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+@media screen and (max-width: 720px) {
+    .expBar {
+        width: calc(100% - 40px); /* Full width on smaller screens */
+    }
+    
+    .expBarText h2 {
+        font-size: 1.5rem;
+    }
+
+    .expBarText p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .expBar {
+        width: calc(100% - 40px); /* Full width on smaller screens */
+    }
+
+    .expBarImg {
+        max-width: 8rem; /* Smaller image on very small screens */
+    }
+    
+    .expBarText h2 {
+        font-size: 1.25rem;
+    }
+
+    .expBarText p {
+        font-size: 0.875rem;
+    }
+}
